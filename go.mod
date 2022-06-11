@@ -1,4 +1,4 @@
-module check_https
+module github.com/overstarrt/check_https
 
 go 1.17
 
