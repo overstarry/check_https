@@ -1,10 +1,10 @@
 package main
 
 import (
-	config "check_https/pkg/config"
-	"check_https/pkg/send"
 	"crypto/tls"
 	"fmt"
+	config "github.com/overstarrt/check_https/pkg/config"
+	"github.com/overstarrt/check_https/pkg/send"
 	"github.com/robfig/cron"
 	"log"
 	"net/http"
